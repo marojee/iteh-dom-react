@@ -59,3 +59,30 @@
   font-size: 25px;
   width: 350px;
 }
+
+.rezultat {
+  display: flex;
+}
+
+#rezultati {
+  margin-top: 3%;
+}
+
+#domacin-h4 {
+  font-size: 50px;
+  margin-left: 34%;
+}
+
+#gost-h4 {
+  font-size: 50px;
+  margin-left: 2%;
+}
+
+#rez1-h4 {
+  margin-left: 2%;
+  font-size: 50px;
+}
+
+#rez2-h4 {
+  font-size: 50px;
+}
