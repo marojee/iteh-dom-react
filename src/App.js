@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Pocetna from './Pocetna';
+import Tabela from './Tabela';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Pocetna />} />
+          <Route path="/tabela" element={<Tabela />} />
         </Routes>
       </Router>
 

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Nav from './Nav';
 
 function Pocetna() {
 
@@ -35,6 +36,8 @@ function Pocetna() {
 
     return (
         <div className="pocetna">
+
+            <Nav />
 
             <h1 id='heading-1'>Serie A 2022/23 results</h1>
 

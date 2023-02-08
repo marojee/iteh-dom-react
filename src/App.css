@@ -86,3 +86,28 @@
 #rez2-h4 {
   font-size: 50px;
 }
+
+.nav {
+  font-size: 35px;
+}
+
+.nav-member a {
+  text-decoration: none;
+}
+
+.nav-member a:visited {
+  color: black;
+}
+
+.nav-member {
+  padding-top: 0.3%;
+}
+
+#n-home {
+  margin-left: 40.5%;
+  margin-right: 2%
+}
+
+#n-table {
+  margin-right: 50%;
+}
