@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Naslov from './Naslov';
 import Nav from './Nav';
 
 function Pocetna() {
@@ -39,7 +40,7 @@ function Pocetna() {
 
             <Nav />
 
-            <h1 id='heading-1'>Serie A 2022/23 results</h1>
+            <Naslov />
 
             <div id='novi-rezultat'>
                 <input type='text' className='form-control' id='domacin' placeholder='Domacin' value={rezultat.domacin} onChange={controlDomacin} />
